@@ -1,6 +1,6 @@
-require './spider'
-require './command_line_argument_parser'
-require './url_store'
+require 'spider'
+require 'command_line_argument_parser'
+require 'url_store'
 
 argument_parser = CommandLineArgumentParser.new
 argument_parser.parse_arguments

@@ -23,7 +23,7 @@ class CommandLineArgumentParser
   end
 
   def display_usage
-    p 'Sample usage:'
+    p "Sample usage:"
     p "ruby search-engine-main.rb -c web -d 3 -p 100 -f 'urls.txt'"
     p "-c must be either 'web' or 'domain', will default to 'web' is you type garbage "
   end
