@@ -3,7 +3,7 @@ require 'uri'
 require 'open-uri'
 require 'rubygems'
 require 'hpricot'
-require './url_utils'
+require 'url_utils'
 
 class Spider
   include UrlUtils
@@ -64,7 +64,7 @@ class Spider
   end
 
   def parse_url(url_object)
-    doc = Hpricot(url_object)
+    doc = Hpricot(url_object) #nokogiri
     puts 'Crawling url ' + url_object.base_uri.to_s
     doc
   rescue
