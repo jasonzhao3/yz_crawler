@@ -7,12 +7,12 @@ Gem::Specification.new do |s|
 	s.authors     = ['Yang Zhao']
 	s.email       = 'yang.notold@gmail.com'
 	s.files       = %w(
-										lib/command_line_argument_parser.rb
-										lib/spider.rb
-										lib/url_store.rb
-										lib/url_utils.rb
-										lib/yz_crawler.rb
-									)
+			  lib/command_line_argument_parser.rb
+			  lib/spider.rb
+                          lib/url_store.rb
+			  lib/url_utils.rb
+		          lib/yz_crawler.rb
+			)
 	s.executables   = ['crawler']
 	s.add_runtime_dependency 'hpricot', '~> 0.8'
 	s.homepage    = 'http://rubygems.org/gems/yz_crawler'
